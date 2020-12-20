@@ -1,0 +1,65 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+p{
+  margin: 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  max-width: 360px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  width: 500px;
+  margin: 60px auto 100px;
+}
+input{
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+#pagination{
+  display: flex;
+  flex-direction: row;
+  margin-left: 50%;
+  align-items: baseline;
+}
+#pagination p{
+  padding: 5px;
+}
+#cart-items{
+  margin-top: 60px;
+}
+#cart-items tr {
+  margin: 10px;
+}
+#cart-items td{
+  min-width: 100px;
+  min-height: 100px;
+  text-align: center;
+}
+#cart-items .quantity{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#cart-items .quantity p{
+  margin: 0 5px 0 5px;
+}
+#single-item{
+  margin-top: 60px;
+}
+

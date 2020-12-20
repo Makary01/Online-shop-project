@@ -55,8 +55,11 @@
 
         <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel"></div>
 
-
-
+        <div id="single-item">
+            <img src="http://placehold.it/700x400">
+            <p>PRODUCT NAME PRODUCT NAME PRODUCT NAME</p>
+            <h5>$24.99</h5>
+        </div>
 
 
     </div>
